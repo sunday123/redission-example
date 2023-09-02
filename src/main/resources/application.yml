@@ -1,0 +1,9 @@
+server:
+  port: 8000
+#spring:
+#  redis:
+#    host: localhost
+#    port: 6379
+spring:
+  redisson:
+    config: redisson-config.yml
